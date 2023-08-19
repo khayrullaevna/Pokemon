@@ -1,0 +1,167 @@
+body{
+    background-color: #FFD845;;
+}
+
+.container{
+    margin: 0;
+    padding: 50px 300px;
+}
+
+.pokemon-img{
+    margin: 0 auto;
+    padding: 0px 355px;
+    display: flex;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 20px;
+}
+
+.card{
+    margin: 0;
+    max-width: 307px;
+    height: 490px;
+    border-radius: 20px;
+    border: 2px solid #000;
+    background: #FFF;
+}
+
+.image{
+    width: 157px;
+    height: 157px;
+    margin: 0 auto;
+    padding: 30px 75px;
+}
+
+.line{
+    height: 2px;
+    background: black;
+}
+
+.naming{
+    display: flex;
+    gap: 50px;
+}
+
+.name{
+    margin: 0;
+    padding: 5px 30px;
+    color: #000;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.type{
+    margin: 0;
+    padding: 5px 30px;
+    color: #000;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.features{
+    display: flex;
+}
+
+.feauture{
+    margin: 0;
+    padding: 25px 30px;
+    color: #000;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.delete-btn{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+    border-radius: 15px;
+    border: 2px solid #000;
+    background: #FFD845;
+    color: white;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.delete-btn:active{
+    background: yellow;
+}
+
+.delete-btn:hover{
+    background: yellow;
+}
+
+.form{
+    margin: 0 auto;
+    padding: 70px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-class{
+    border-radius: 15px;
+    border: 2px solid #000;
+    background: #FFF;
+}
+
+.btn, .input-class::placeholder {
+    text-align: center;
+    color: #000;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.gross{
+    width: 260px;
+    height: 60px;
+}
+
+.search{
+    width: 300px;
+    height: 60px;
+}
+
+.category{
+    width: 260px;
+    height: 60px;
+}
+
+.btn{
+    width: 200px;
+    height: 60px;
+    border-radius: 15px;
+    border: 2px solid #000;
+    background: #FFF;
+}
+
+.btn:active{
+    background-color: yellow;
+}
+
+.btn:hover{
+    background-color: yellow;
+    border: none;
+    padding: 15px 32px;
+    font-size: 16px;
+}
